@@ -1,0 +1,22 @@
+{
+    "name": "gooyer/http",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Łukasz Grajewski",
+            "email": "grajewski.lukasz@wp.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gooyer\\Http\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "symfony/http-foundation": "^5.1"
+    },
+    "require-dev": {
+        "swoole/ide-helper": "@dev"
+    }
+}
