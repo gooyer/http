@@ -1,7 +1,8 @@
 {
     "name": "gooyer/http",
-    "type": "project",
+    "type": "library",
     "license": "Apache-2.0",
+    "description": "Gooyer HTTP library",
     "authors": [
         {
             "name": "Łukasz Grajewski",
@@ -19,5 +20,5 @@
     },
     "require-dev": {
         "swoole/ide-helper": "@dev"
-    }
+    },
 }
