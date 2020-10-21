@@ -2,13 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Gooyer\Http;
+namespace Gooyer\Http\Services;
 
+use Gooyer\Http\Request;
 use Symfony\Component\HttpFoundation\ParameterBag;
 
-class RequestReader
+class RequestFactory
 {
-    public static function read(\Swoole\Http\Request $request): Request
+    public static function factory(\Swoole\Http\Request $request): Request
     {
         $headers = array_combine(array_map(function ($key) {
             return 'HTTP_'.str_replace('-', '_', $key);
