@@ -1,6 +1,7 @@
 {
     "name": "gooyer/http",
     "type": "project",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Łukasz Grajewski",
@@ -18,5 +19,5 @@
     },
     "require-dev": {
         "swoole/ide-helper": "@dev"
-    }
+    },
 }
