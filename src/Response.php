@@ -2,11 +2,9 @@
 
 declare(strict_types=1);
 
-
 namespace Gooyer\Http;
 
-
-class Response
+class Response extends \Symfony\Component\HttpFoundation\Response
 {
 
 }
